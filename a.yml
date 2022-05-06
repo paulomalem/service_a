@@ -7,7 +7,7 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-      AppName: service-a(novo)
+      AppName: service-a
   template:
     metadata:
       labels:
@@ -17,7 +17,7 @@ spec:
         - name: service-a
           image: hashicorp/http-echo
           args:
-            - "-text=service-a"
+            - "-text=service-a(noovo)"
           ports:
             - name: tcp-5678
               containerPort: 5678
