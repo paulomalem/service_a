@@ -7,7 +7,7 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-      AppName: service-a
+      AppName: service-a(novo)
   template:
     metadata:
       labels:
