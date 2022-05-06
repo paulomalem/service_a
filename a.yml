@@ -17,7 +17,7 @@ spec:
         - name: service-a
           image: hashicorp/http-echo
           args:
-            - "-text=service-a(noovo)"
+            - "-text=service-a(noovooooo)"
           ports:
             - name: tcp-5678
               containerPort: 5678
